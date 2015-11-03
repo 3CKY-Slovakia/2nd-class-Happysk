@@ -107,3 +107,9 @@ $(function() {
         }
     });
 });
+/** Summernote */
+$(document).ready(function(){
+    $("#description").summernote({
+        height: 300
+    });
+});
